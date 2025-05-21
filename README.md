@@ -10,7 +10,7 @@ that have not been fixed.
 Building this container is simple.  In the directory containing the Dockerfile,
 run the following command:
 
-```docker build -t reposcanner:latest .```
+```docker build -t reposcanner:demo .```
 
 ## Running
 To launch the container, create a local folder on your docker host called "docs"
@@ -22,7 +22,7 @@ where <github-repo> is the full https url of the github repository you would lik
 To scan the repo https://github.com/grafana/grafana with the folder /Users/houseofpwn/Documents as your
 docs folder, run the following command:
 
-```docker run -it -v /Users/houseofpwn/Documents:/docs --env repo="https://github.com/grafana/grafana" reposcanner:demo /bin/bash```
+```docker run -it -v /Users/houseofpwn/Documents:/docs --env repo="https://github.com/grafana/grafana" reposcanner:demo ```
 
 
 ## Output
