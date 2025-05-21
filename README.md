@@ -22,7 +22,7 @@ where <github-repo> is the full https url of the github repository you would lik
 To scan the repo https://github.com/grafana/grafana with the folder /Users/houseofpwn/Documents as your
 docs folder, run the following command:
 
-```docker run -it -v /Users/houseofpwn/Documents:/docs --env repo="https://github.com/grafana/grafana" --name mrscanner reposcanner:demo /bin/bash```
+```docker run -it -v /Users/houseofpwn/Documents:/docs --env repo="https://github.com/grafana/grafana" reposcanner:demo /bin/bash```
 
 
 ### Output
