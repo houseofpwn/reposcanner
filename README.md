@@ -31,5 +31,12 @@ After launch, the scanners will run and produce the following output:
 1. Scanner results will print to the console
 2. JSON files containing the data will output to the <docsfolder> folder.
 
+Two files of note are outputted to the <docsfolder> folder.  
+* notfixed-status.json
+  * This file contains modules matching the vulnerable libraries 
+* fixed-status.json
+  * This file contains modules matching the vulnerable libraries and whether they are vulnerable or not baed on version.
+
+
 ### Sample output
 ![img.png](sampleoutput01.png)
